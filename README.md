@@ -1,6 +1,6 @@
 # Cache Simulator
 
-A C-based simulation of a **1MB CPU Cache** implementing **4-Way Set Associative Mapping** and the **Least Recently Used (LRU)** replacement policy. This project demonstrates understanding of computer architecture concepts including memory hierarchy, cache conflicts, and write-back policies.
+A C-based simulation of a *Dynamic CPU Cache** implementing **N-Way Set Associative Mapping** and the **Least Recently Used (LRU)** replacement policy. This project demonstrates understanding of computer architecture concepts including memory hierarchy, cache conflicts, and write-back policies.
 
 ## 📂 Project Structure
 
