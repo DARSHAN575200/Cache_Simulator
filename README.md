@@ -48,6 +48,7 @@ Run the program by specifying the Number of Sets and the Associativity (Ways).
 ./cache_sim <num_sets> <associativity>
 
 ./cache_sim 1024 1
+```
 
 ## ⚙️ Cache Specifications
 
@@ -84,17 +85,17 @@ gcc cache_trace_basic.c -o cache_trace
 
 # For the Advanced Version (With Dirty Bits)
 gcc cache_trace_writeback.c -o cache_advanced
-
+```
 2. Running
 Interactive Mode:
 
-Bash
+```Bash
 
 ./cache_interactive
 # Then type addresses like: 0x12345678
 Trace Mode: (Ensure you have a trace.txt file in the same folder formatted as R 0xAddress)
-
-Bash
+```
+```Bash
 
 ./cache_advanced
 📊 Sample Output
@@ -116,6 +117,7 @@ Current Hit Rate: 50.00% (1/2)
 
 Result: MISS (Cache Full - Evicting Way 2)
   -> WRITING BACK dirty block to RAM... (Slow!)
+```
 🛠️ Technology Stack
 Language: C
 
